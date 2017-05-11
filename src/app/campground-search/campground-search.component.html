@@ -1,0 +1,13 @@
+<form>
+  <label for="state">Enter the state</label>
+  <input #state>
+  <button (click)="findCampgrounds(state.value)">Enter</button>
+  {{rec}}
+</form>
+
+<form>
+  <label for="state">Enter the state</label>
+  <input #state>
+  <button (click)="findCampgroundsThroughActive(state.value)">Enter</button>
+
+</form>
